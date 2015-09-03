@@ -97,7 +97,7 @@ object StreamingAnalyticsApp {
 
 		// Compute and print out stats for each batch. Since each batch is RDD, we call forEachRDD on the DStream
 		// ForeachRDD can apply arbitrary processing on each RDD in the stream to compute our desired metrics
-		events.forEachRDD { (rdd, time) => 
+		events.foreachRDD { (rdd, time) => 
 			val numPurchases = rdd.count()
 			val uniqueUsers = rdd.map {
 				case (user,_,_) => user 
@@ -110,20 +110,38 @@ object StreamingAnalyticsApp {
 			}.reduceByKey(_+_)
 				.collect()
 				.sortBy(-_._2) // sort by value (number of purchases) in reverse order
+
+			// based on number of purchases
+			val mostPopular = productByPopularity(0)
+			val formatter = new SimpleDateFormat
+			val dateStr = formatter.format( new Date(time.milliseconds))
+
+			println(s"\n\n\n==Batch start time: $dateStr==")
+			println("Total purchases: " + numPurchases)
+			println("Unique users:" + uniqueUsers)
+			println("Total revenue: " + totalRevenue)
+			println("Most popular product: %s with %d purchases".format(
+				mostPopular._1, mostPopular._2)
+			)
+		} // end of foreach RDD
+
+		// Apply the concept of stateful streaming using updateStateByKey function
+		// to compute a global state of revenue and number of purchases per user.
+		ssc.checkpoint("./checkpoint/")
+
+		// First define an updateState function that will compute the new state
+		// from the running state value and new data in current batch. Our state
+		// is a tuple of (number of products, revenue) pairs
+		val updateFunction = (prices: Seq[(String, Double)], currentTotal: Option[(Int, Double)]) => {
+			val currentRevenue = prices.map(_._2).sum
+			val currentNumberPurchases = prices.size
+			val state = currentTotal.getOrElse((0, 0.0))
+			Some((currentNumberPurchases + state._1, currentRevenue + state._2))
 		}
 
-		// based on number of purchases
-		val mostPopular = productByPopularity(0)
-		val formatter = new SimpleDateFormat
-		val dateStr = formatter.format( new Date(time.milliseconds))
+		val users = events.map { case (user, product, price) => (user, (product, price))}
 
-		println(s"\n\n\n==Batch start time: $dateStr==")
-		println("Total purchases: " + numPurchases)
-		println("Unique users:" + uniqueUsers)
-		println("Total revenue: " + totalRevenue)
-		println("Most popular product: %s with %d purchases".format(
-			mostPopular._1, mostPopular._2)
-		)
-		} // end of foreach RDD
-	}
+		val revenuePerUser = users.updateStateByKey(updateFunction)
+		revenuePerUser.print()
+	} 
 }
