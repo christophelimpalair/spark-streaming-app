@@ -97,5 +97,19 @@ object StreamingAnalyticsApp {
 
 		// Compute and print out stats for each batch. Since each batch is RDD, we call forEachRDD on the DStream
 		// ForeachRDD can apply arbitrary processing on each RDD in the stream to compute our desired metrics
+		events.forEachRDD { (rdd, time) => 
+			val numPurchases = rdd.count()
+			val uniqueUsers = rdd.map {
+				case (user,_,_) => user 
+			}.distinct().count()
+			val totalRevenue = rdd.map {
+				case (_,_,price) => price.toDouble 
+			}.sum()
+			val productByPopularity = rdd.map {
+				case (user, product, price) => (product, 1)
+			}.reduceByKey(_+_)
+				.collect()
+				.sortBy(-_._2) // sort by value (number of purchases) in reverse order
+		}
 	}
 }
