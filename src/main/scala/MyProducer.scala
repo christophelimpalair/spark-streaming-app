@@ -111,5 +111,19 @@ object StreamingAnalyticsApp {
 				.collect()
 				.sortBy(-_._2) // sort by value (number of purchases) in reverse order
 		}
+
+		// based on number of purchases
+		val mostPopular = productByPopularity(0)
+		val formatter = new SimpleDateFormat
+		val dateStr = formatter.format( new Date(time.milliseconds))
+
+		println(s"\n\n\n==Batch start time: $dateStr==")
+		println("Total purchases: " + numPurchases)
+		println("Unique users:" + uniqueUsers)
+		println("Total revenue: " + totalRevenue)
+		println("Most popular product: %s with %d purchases".format(
+			mostPopular._1, mostPopular._2)
+		)
+		} // end of foreach RDD
 	}
 }
