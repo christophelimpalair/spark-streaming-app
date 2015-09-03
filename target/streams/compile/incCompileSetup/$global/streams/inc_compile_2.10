@@ -1,0 +1,341 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+18 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel$$anonfun$setStreamingLogLevels$1.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel$.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anon$1$$anonfun$run$1.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anon$1.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anonfun$MyProducer$$generateProductEvents$1$1.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingAnalyticsApp$.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingAnalyticsApp.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$1.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$3.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$4.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$5.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$6$$anonfun$2.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$6.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$.class
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne.class
+binary dependencies:
+12 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.1.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> /Users/christophe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.1.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.4.1.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.1.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.4.1.jar
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+2 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> /Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> /Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+18 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> AdjustLogLevel
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> AdjustLogLevel$
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> AdjustLogLevel$$anonfun$setStreamingLogLevels$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer$
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer$$anon$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer$$anon$1$$anonfun$run$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer$$anonfun$MyProducer$$generateProductEvents$1$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> StreamingAnalyticsApp
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> StreamingAnalyticsApp$
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$3
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$4
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$5
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$6
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne$$anonfun$6$$anonfun$2
+used names:
+181 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> <init>
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> AdjustLogLevel
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> ERROR
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> Level
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> Logger
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> Logging
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> Unit
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> apache
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> getAllAppenders
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> getRootLogger
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> hasMoreElements
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> log4j
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> log4jInitialized
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> logInfo
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> org
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> scala
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> setLevel
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> spark
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> unary_!
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> $anon
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> +
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> ->
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> <init>
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> AdjustLogLevel
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> AnyRef
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Array
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Codec
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Date
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> DateFormat
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> IndexedSeq
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Int
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MaxEvents
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> MyProducer
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Predef
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> PrintWriter
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Random
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Seconds
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Seq
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> ServerSocket
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> SimpleDateFormat
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Source
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> SparkContext
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> StreamingAnalyticsApp
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> StreamingContext
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> String
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> StringContext
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Thread
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> Unit
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> _1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> _2
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> accept
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> any2ArrowAssoc
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> apache
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> apply
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> awaitTermination
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> canBuildFrom
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> close
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> collection
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> event
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> fallbackSystemCodec
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> flush
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> foreach
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> fromInputStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> generateProductEvents
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> getClass
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> getInetAddress
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> getLines
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> getOutputStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> getResourceAsStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> head
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> immutable
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> intWrapper
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> io
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> java
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> lang
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> listener
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> map
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> mkString
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> n
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> names
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> namesResource
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> ne
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> net
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> nextInt
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> num
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> org
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> out
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> price
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> print
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> println
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> product
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> productEvents
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> products
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> random
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> refArrayOps
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> s
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> scala
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> setStreamingLogLevels
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> shuffle
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> size
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> sleep
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> socket
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> socketTextStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> spark
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> split
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> ssc
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> start
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> stream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> streaming
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> text
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> to
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> toList
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> toSeq
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> unchecked
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> user
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> util
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> while$1
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> while$2
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> write
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> +
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> <init>
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> AdjustLogLevel
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> AnyRef
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Array
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> ClassTag
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> DStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Int
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> IntIsIntegral
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Numeric
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Option
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Ordering
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Predef
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Seconds
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Seq
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> SparkConf
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingContext
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> StreamingExampleOne
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> String
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> Unit
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> a
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> apache
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> apply
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> awaitTermination
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> b
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> checkpoint
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> conf
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> currentCount
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> dstream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> flatMap
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> getOrElse
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> lines
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> map
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> materializeClassTag
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> math
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> org
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> package
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> pairs
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> previousCount
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> print
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> reduceByKey
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> reduceByKeyAndWindow
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> scala
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> setAppName
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> setMaster
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> setStreamingLogLevels
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> socketTextStream
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> spark
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> split
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> ssc
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> start
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> state
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> streaming
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> sum
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> toPairDStreamFunctions
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> updateFunction
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> updateStateByKey
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> values
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> windowWordCounts
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> word
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> words
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> wrapRefArray
+product stamps:
+18 items
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel$$anonfun$setStreamingLogLevels$1.class -> lastModified(1441134383000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel$.class -> lastModified(1441134383000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/AdjustLogLevel.class -> lastModified(1441134383000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anon$1$$anonfun$run$1.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anon$1.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$$anonfun$MyProducer$$generateProductEvents$1$1.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer$.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/MyProducer.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingAnalyticsApp$.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingAnalyticsApp.class -> lastModified(1441302910000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$1.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$3.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$4.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$5.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$6$$anonfun$2.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$$anonfun$6.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne$.class -> lastModified(1441134384000)
+/Users/christophe/Documents/Development/spark-app/target/scala-2.10/classes/StreamingExampleOne.class -> lastModified(1441134384000)
+source stamps:
+3 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> hash(95b12a3554eb32519b4cd13ac1969f7c160fead6)
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> hash(256b636fd38ee6cd3547cd85e317d0a290097056)
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> hash(9da444c0955d8350950bb3974feaaf78a488185a)
+binary stamps:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1438711540000)
+/Users/christophe/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1396501213000)
+/Users/christophe/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.1.jar -> lastModified(1436942189000)
+/Users/christophe/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.4.1.jar -> lastModified(1436942199000)
+/Users/christophe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> lastModified(1396783702000)
+class names:
+5 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Thread
+/Users/christophe/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Level
+/Users/christophe/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.1.jar -> org.apache.spark.SparkContext$
+/Users/christophe/.ivy2/cache/org.apache.spark/spark-streaming_2.10/jars/spark-streaming_2.10-1.4.1.jar -> org.apache.spark.streaming.StreamingContext
+/Users/christophe/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar -> scala.StringContext$
+internal apis:
+3 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDIc55yAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAIHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCVMkuR0AAZub3RpZnlzcQB+AAxxQhUfdAAEd2FpdHNxAH4ADN8sLA90AA0kYXNJbnN0YW5jZU9mc3EAfgAMEJTS73QAFXNldFN0cmVhbWluZ0xvZ0xldmVsc3NxAH4ADKPu8Lh0AAZlcXVhbHNzcQB+AAwD1rFvdAAMYXNJbnN0YW5jZU9mc3EAfgAMGdOHonQABGxvZ19zcQB+AAyJQfO1dAAMc3luY2hyb25pemVkc3EAfgAMD8GQVnQADSRpc0luc3RhbmNlT2ZzcQB+AAxsxwt0dAAIbG9nVHJhY2VzcQB+AAwXy0xRdAAOaXNUcmFjZUVuYWJsZWRzcQB+AAzuYSPNdAAHbG9nTmFtZXNxAH4ADMgFh7h0AAlub3RpZnlBbGxzcQB+AAyqjWXEdAAMaXNJbnN0YW5jZU9mc3EAfgAMiR4yr3QAAj09c3EAfgAMAgFqX3QABWNsb25lc3EAfgAMFdGfhnQACHRvU3RyaW5nc3EAfgAMY+lxXXQACGxvZ0Vycm9yc3EAfgAMcxzx2XQADkFkanVzdExvZ0xldmVsc3EAfgAMSIGIpHQAAiE9c3EAfgAMvabrYnQACGdldENsYXNzc3EAfgAMsOxgvnQACmxvZ1dhcm5pbmdzcQB+AAwpFYFEdAAVaW5pdGlhbGl6ZUlmTmVjZXNzYXJ5c3EAfgAMKNxe93QAAm5lc3EAfgAMRBkaB3QAAmVxc3EAfgAMvcivSXQAA2xvZ3NxAH4ADL7Grkd0AAIjI3NxAH4ADM3fN2J0AAhmaW5hbGl6ZXNxAH4ADIg69850AAhoYXNoQ29kZXNxAH4ADA7bGPB0AAhsb2dEZWJ1Z3NxAH4ADCApMVp0AAdsb2dJbmZvc3EAfgAMK1FRQXQAEWluaXRpYWxpemVMb2dnaW5nc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AV3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBuAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBXTAAJaW5oZXJpdGVkcQB+AFdMAAdwYXJlbnRzcQB+AFd4cQB+AHVzcQB+AG4BdXEAfgBSAAAAAHBzcQB+AG4BdXEAfgBSAAAAAHBzcQB+AG4BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB0dAAHTG9nZ2luZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AdHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADb3Jnc3EAfgCNdAAGYXBhY2hlc3EAfgCNdAAFc3BhcmtzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjnNxAH4AgXQABk9iamVjdHNxAH4AhXNxAH4AiHVxAH4AiwAAAANzcQB+AI10AARqYXZhc3EAfgCNdAAEbGFuZ3EAfgCWc3EAfgCBdAADQW55c3EAfgCFc3EAfgCIdXEAfgCLAAAAAnNxAH4AjXQABXNjYWxhcQB+AJZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFPik15RHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEsvVXNlcnMvY2hyaXN0b3BoZS9Eb2N1bWVudHMvRGV2ZWxvcG1lbnQvc3BhcmstYXBwL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSVsSo1VOsyUZtM0TrBlp98Fg/q1g==
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDkBQscAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJSLgjJ0AAZub3RpZnlzcQB+AAzt85/KdAAEd2FpdHNxAH4ADHP2lM90AA0kYXNJbnN0YW5jZU9mc3EAfgAMNO0sWXQABmVxdWFsc3NxAH4ADDBC0xF0AAxhc0luc3RhbmNlT2ZzcQB+AAxx3vUEdAAMc3luY2hyb25pemVkc3EAfgAMiUz/6HQADSRpc0luc3RhbmNlT2ZzcQB+AAyh3P2BdAAKTXlQcm9kdWNlcnNxAH4ADIyNiW50AARtYWluc3EAfgAM5ZhNZHQACW5vdGlmeUFsbHNxAH4ADHsKbAd0AAxpc0luc3RhbmNlT2ZzcQB+AAyEQZZZdAACPT1zcQB+AAxeG7F0dAAFY2xvbmVzcQB+AAy47AxkdAAVU3RyZWFtaW5nQW5hbHl0aWNzQXBwc3EAfgAMkVW2/XQACHRvU3RyaW5nc3EAfgAMqnnXnHQAAiE9c3EAfgAMxCwM7XQACGdldENsYXNzc3EAfgAMTwM+ZnQAAm5lc3EAfgAMnH0vFHQAAmVxc3EAfgAMRQb5a3QAAiMjc3EAfgAM7dChO3QACGZpbmFsaXplc3EAfgAM9tJTS3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAddXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBEcQB+AE11cQB+AE4AAAAAc3EAfgBQAHEAfgAfdXEAfgBSAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnR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
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDL/VrQAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJEepfl0AAZub3RpZnlzcQB+AAyuFzk6dAAEd2FpdHNxAH4ADCZ4nFd0AA0kYXNJbnN0YW5jZU9mc3EAfgAMsAPw5XQABmVxdWFsc3NxAH4ADAWdK6x0AAxhc0luc3RhbmNlT2ZzcQB+AAwtOkSvdAAMc3luY2hyb25pemVkc3EAfgAMVDRit3QADSRpc0luc3RhbmNlT2ZzcQB+AAx+P0I0dAAEbWFpbnNxAH4ADI8BZ2p0ABNTdHJlYW1pbmdFeGFtcGxlT25lc3EAfgAMc4A6knQACW5vdGlmeUFsbHNxAH4ADMMbn6V0AAxpc0luc3RhbmNlT2ZzcQB+AAz9SwzgdAACPT1zcQB+AAzkuhuUdAAFY2xvbmVzcQB+AAxRgQYWdAAIdG9TdHJpbmdzcQB+AAxAi2xkdAACIT1zcQB+AAxHHVDudAAIZ2V0Q2xhc3NzcQB+AAynQIu0dAACbmVzcQB+AAxiTHUCdAACZXFzcQB+AAwx9jP4dAACIyNzcQB+AAx+AANYdAAIZmluYWxpemVzcQB+AAz8915bdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAcQB+AB91cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFgBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AX3NxAH4AWAF1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF5zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHp1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBneHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBuWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBec3EAfgBtdAAFQXJyYXlxAH4Ac3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBtdAAGU3RyaW5nc3EAfgBxc3EAfgB0dXEAfgB3AAAAA3NxAH4AeXQABGphdmFzcQB+AHl0AARsYW5ncQB+AH5wc3EAfgBYAXVxAH4APAAAAABwc3EAfgBYAXVxAH4AkgAAAAJzcQB+AG10AAZPYmplY3RxAH4AlnNxAH4AbXQAA0FueXEAfgBzcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT4pNeUR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABLL1VzZXJzL2NocmlzdG9waGUvRG9jdW1lbnRzL0RldmVsb3BtZW50L3NwYXJrLWFwcC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUnaREwJVdg1CVC7OXT+qveKSIGFo=
+external apis:
+0 items
+source infos:
+3 items
+/Users/christophe/Documents/Development/spark-app/src/main/scala/AdjustLogLevel.scala -> 
+AAAAAAAAAAA=
+/Users/christophe/Documents/Development/spark-app/src/main/scala/MyProducer.scala -> 
+AAAAAAAAAAA=
+/Users/christophe/Documents/Development/spark-app/src/main/scala/StreamingExampleOne.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT0xkUY91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT3BRBDV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT3BUSLZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT3B/let1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT3CAzEZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT4pNeUR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABT5RY+tZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9Vc2Vycy9jaHJpc3RvcGhlL0RvY3VtZW50cy9EZXZlbG9wbWVudC9zcGFyay1hcHAvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
